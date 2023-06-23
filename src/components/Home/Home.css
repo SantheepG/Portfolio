@@ -1,0 +1,81 @@
+/************ Banner Css ************/
+*{
+    color: white;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .home {
+      margin-top: 0;
+      position: relative;
+      padding: 1px 0 0 0;
+      background-image: url('../../assets/img/color-sharp1.png');
+      background-position: top right;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .home h1 {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      line-height: 1;
+      margin-bottom: 5px;
+      display: block;
+    }
+    .home p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      width: 90%;
+      margin-top: 3vh;
+    }
+    .home button {
+      background-color: var(--color-bg);
+      font-weight: 700;
+      font-size: 20px;
+      margin-top: 60px;
+      letter-spacing: 0.8px;
+      display: flex;
+      align-items: center;
+    }
+    .home button svg {
+      background-color: var(--color-bg);
+      font-size: 25px;
+      margin-left: 10px;
+      transition: 0.3s ease-in-out;
+      line-height: 1;
+    }
+    .home button:hover svg {
+      margin-left: 25px;
+    }
+    .home img {
+      animation: updown 3s linear infinite;
+    }
+    .container {
+        position: absolute;
+        padding-left: 50%;
+        padding-top: 16%;
+        top: 0;
+        left: 0;
+        width: 40%;
+        height: 100%;
+      }
+    @keyframes updown {
+        0% {
+            transform: translateY(-20px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+    .txt-rotate > .wrap {
+      border-right: 0.08em solid #666;
+    }
+    
