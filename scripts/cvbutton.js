@@ -1,4 +1,4 @@
-var btn6 = document.querySelector(".btn-6");
+var btn6 = document.querySelector(".button-text");
 
 window.addEventListener("DOMContentLoaded", function () {
   btn6.addEventListener("mouseenter", function (e) {
@@ -23,8 +23,8 @@ btn6.addEventListener("click", () => {
   const downloadLink = document.createElement("a");
 
   // Set the file URL and name
-  downloadLink.href = "CV/Isuru-CV.pdf";
-  downloadLink.download = "CV-Isuru Ariyarathna.pdf";
+  downloadLink.href = "Ganeswaran (2).pdf";
+  downloadLink.download = "Ganeswaran (2).pdf";
 
   // Append the anchor element to the document body
   document.body.appendChild(downloadLink);

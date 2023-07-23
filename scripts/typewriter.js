@@ -42,7 +42,7 @@ TxtType.prototype.tick = function () {
 };
 
 window.onload = function () {
-  var elements = document.getElementsByClassName("typewrite");
+  var elements = document.getElementsByClassName("typewriter");
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute("data-type");
     var period = elements[i].getAttribute("data-period");
