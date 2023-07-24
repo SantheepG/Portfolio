@@ -22,7 +22,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    background-color: #f5f4f4;
+    background-color: #ffffff;
   
 }
 
@@ -105,8 +105,8 @@ nav{
 
   /** home section **/
   .home{
-    margin: 4% 12% 10% 15%;
-    padding: 10%;
+    margin: -12% 12% 10% 15%;
+    padding: 6%;
     display: flex;
     color: #000000;
     justify-content: center;
@@ -229,7 +229,7 @@ button.learn-more .circle {
  margin: 0;
  width: 3rem;
  height: 3rem;
- background: #282936;
+ background: #000b76;
  border-radius: 1.625rem;
 }
 
