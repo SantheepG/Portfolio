@@ -1,175 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Santheep G</title>
-    <link rel="icon" type="image/x-icon" href="Images/tabicon.png" />
-
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=M+PLUS+1+Code:wght@200;300;400&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
+
+    <title>Santheep | Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+
   </head>
+
   <body>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000b76" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,106.7C640,96,800,128,960,149.3C1120,171,1280,181,1360,186.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-    <nav>
-      <div class="nav-items">
-        <a href="#home">
-          <span data-hover="home">Home</span>
-        </a>
-        <a href="#skills">
-          <span data-hover="Skills">Skills</span>
-        </a>
-        <a href="#projects">
-          <span data-hover="Projects">Projects</span>
-        </a>
-        <a href="#contact">
-          <span data-hover="Contact">Contact</span>
-        </a>
-      </div>
-    </nav>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/img.png" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Ganeswaran Santheep</h4>
+              <span>Software Engineer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
 
-    <section class="home" id="home">
-      <div>
-        <div class="name">Ganeswaran Santheep</div>
-        
-        <div class="typewriter" data-period="2000"
-        data-type='["Striving programmer", "Aspiring full-stack developer", "Feel good UI designer"]'></div>
-        <div class="horizontal-bar"></div>
-        <p>Hi, I'm Santheep, a Software engineering undergradute at University of Westminster. Looking for oportunities to craft digital wonders.</p>
-        <button class="learn-more">
-          <div class="circle" aria-hidden="true">
-          <div class="icon arrow"></div>
-          </div>
-          <div class="button-text"> Download CV</div>
-        </button>
-      </div>
-      
-      <div class="img"><img src="latest4.png"></div>
-    </section>
-
-    <section class="skills" id="skills">
-      <div class="heading">Skills</div>
-      <h5>Technologies I've been working with</h5>
-      <div class="skill-container">
-        <div class="skill">
-          <h4>Languages</h4>
-          <li>Java</li>
-          <li>Python</li>
-          <li>R</li>
-          <li>Kotlin</li>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </div>
-        <div class="skill">
-          <h4>Frameworks</h4>
-          <li>React JS</li>
-          <li>Flask</li>
-        </div>
-        <div class="skill">
-          <h4>Database</h4>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-        </div>
-        <div class="skill">
-          <h4>Tools</h4>
-          <li>Git</li>
-          <li>GitHub</li>
-          <li>Adobe Photoshop</li>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="heading">Projects</div>
-      <h5>Things I've built</h5>
-      <div class="projects-container">
-        <div class="project">
-          <img src="imgs/cinadoc.png" alt="project img" class="image" />
-          <div class="middle">
-            <div class="overlay"><h3>Cinadoc</h3>A flutter application for cinnamon plant disease diagonisis using image classification. Developed the back-end
-              <br />
-              <br />
-              <a class="github" href="https://github.com/SantheepG/Cinadoc_backend">
-                Github
-              </a></div>
           </div>
         </div>
-        <div class="project">
-          <img src="imgs/recipeapp.png" alt="project img" class="image" />
-          <div class="middle">
-            <div class="overlay"><h3>RecipeHunt</h3>A Recipe finding application which is designed to provide desired recipes based on the search of users
-              <br />
-              <br />
-              <a class="github" href="https://github.com/SantheepG/RecipeApp_kotlin">
-                Github
-              </a></div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <br/>
+            <br/>
+            <br/>
+            
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <br/>
+            <br/>
+            <span
+              >Hi, I'm Santheep, a versatile & a genuinely enthusiastic individual with a profound interest in full stack development, Artificial Intelligence & Machine Learning and who is keen to widen the proficiency in IT sector along with good inter-personal skills. Currently enrolled in the Bachelor of Engineering program in Software Engineering at University of Westminster
+
+              with a focus on delivering exceptional software solutions & latest industry trends, seeking opportunities to achieve success and beyond.</span
+            >
+            <br/>
+            <br/>
+            <br/>
+            <button class="learn-more">
+                <div class="circle" aria-hidden="true">
+                <div class="icon arrow"></div>
+                </div>
+                <div class="button-text"> Download CV</div>
+              </button>
           </div>
+
+  
         </div>
-        <div class="project">
-          <img src="imgs/skincare.png" alt="project img" class="image" />
-          <div class="middle">
-            <div class="overlay">
-              <h3>Skincare</h3>A consultation management system using OOP
-              concepts for a skin consultation centre.
-              <br />
-              <br />
-              <a class="github" href="https://github.com/SantheepG/Consultation-management">
-                Github
-              </a>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What I’m good at?</h2>
+            <div class="line-dec"></div>
+            <span
+              >Technologies I've been working with</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <h4>Languages</h4>
+                <p>
+                    <div>Java</div>
+                    <div>JavaScript</div>
+                    <div>Python</div>
+                    <div>Kotlin</div>
+                    <div>R</div>
+                    <div>HTML+CSS</div>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item">
+                    <h4>Tools</h4>
+                    <p>
+                        <div>Git</div>
+                        <div>Github</div>
+                        <div>Adobe Photoshop</div>
+                        <div>Figma</div>
+                        <br/>
+                        <br/>
+                    </p>
+                  </div>
+              
+            </div>
+            <div class="col-md-6">
+                <div class="service-item">
+                
+                    <h4>Frameworks</h4>
+                    <p>
+                        <div>React JS</div>
+                        <div>Flask</div>
+                    </p>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-item">
+                    <h4>Database management</h4>
+                    <p>
+                        <div>MongoDB</div>
+                        <div>MySQL</div>
+                    </p>
+                  </div>
+
             </div>
           </div>
         </div>
-        <div class="project">
-          <img src="imgs/weatherapp.png" alt="s=Skincare" class="image" />
-          <div class="middle">
-            <div class="overlay">
-              <h3>WeatherNow</h3>An application to provide up-to-date weather information of various locations to users.
-              <br />
-              <br />
-              <a class="github" href="https://github.com/SantheepG/Weather-forecast">
-                Github
-              </a>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Things I've built</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/recipeapp.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+
+                      <h4>RecipeHunt</h4>
+                      <span>An android based App to discover desired recipes & instructions</span>
+                      <span>              <a class="github" href="https://github.com/SantheepG/RecipeApp_kotlin">
+                        Github
+                      </a></span>
+
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/cinadoc.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+
+                      <h4>Cinadoc</h4>
+                      <span>Flutter app which uses image classification technology to diagnose diseases in your cinnamon plants with a robust back-end</span>
+                      <span><a class="github" href="https://github.com/SantheepG/Cinadoc_backend">
+                        Github
+                      </a></span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/skincare.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+
+                      <h4>Skincare management system</h4>
+                      <span>A consultation management system using OOP concepts for a skin consultation centre. </span>
+                      <span><a class="github" href="https://github.com/SantheepG/Consultation-management">
+                        Github
+                      </a></span>
+                    </figcaption>
+
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/weatherapp.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+
+                      <h4>WeatherNow</h4>
+                      <span>An application to provide up-to-date weather information of various locations to users. </span>
+                      <span><a class="github" href="https://github.com/SantheepG/Weather-forecast">
+                        Github
+                      </a></span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="contact" id="contact">
-      <div class="heading">Contact</div>
-      <h5>Get in touch</h5>
-      <div class="background">
-        <h5>Although I am currently seeking new opportunities, please feel free to reach out to me at any time. I am always open to answering questions or simply chatting, and I will do my best to promptly respond to your message. </h5>
+      </section>
 
-      </div>
-      <div class="btn-conteiner">
-        <a class="btn-content" href="mailto:gshantheep@gmail.com">
-          <span class="btn-title">Say Hello</span>
-          <span class="icon-arrow">
-            <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <path id="arrow-icon-one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path id="arrow-icon-two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
-                <path id="arrow-icon-three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
-              </g>
-            </svg>
-          </span> 
-        </a>
-      </div>
-    </section>
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              > Fear not, for my communication channels remain open at all celestial hours. I shall endeavor to respond with promptness, alacrity, and a sprinkle of mirth! 😄📩 </span
+            >
+          </div>
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <!-- JS Links -->
-    <script src="scripts/cvbutton.js"></script>
-    <script src="scripts/typewriter.js"></script>
-    
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/jquery/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/typewriter.js"></script>
+    <script src="assets/js/cvbutton.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
   </body>
 </html>
