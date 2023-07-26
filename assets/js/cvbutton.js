@@ -23,8 +23,8 @@ btn6.addEventListener("click", () => {
   const downloadLink = document.createElement("a");
 
   // Set the file URL and name
-  downloadLink.href = "Ganeswaran (2).pdf";
-  downloadLink.download = "Ganeswaran (2).pdf";
+  downloadLink.href = "Ganeswaran.pdf";
+  downloadLink.download = "Ganeswaran.pdf";
 
   // Append the anchor element to the document body
   document.body.appendChild(downloadLink);
