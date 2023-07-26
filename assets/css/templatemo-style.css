@@ -217,7 +217,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 1s cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: rgba(64, 64, 121, 0.7);
+  background-color: rgba(64, 64, 121, 0.5);
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -232,7 +232,7 @@ html {
   width: 20%;
   will-change: transform;
   z-index: 9999 !important;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);  
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);  
 }
 
 .menu-toggle {
@@ -936,6 +936,7 @@ section.contact-me  ul {
 @media screen and (max-width: 1280px) {
     .menu {
         left: 0%;
+        
     }
 
     .right-image-post h4,
@@ -1002,12 +1003,14 @@ section.contact-me  ul {
     .menu .container {
         padding-left: 15px;
         padding-right: 15px;
+        
     }
 
     .menu.open {
         display: inline-block;
         -webkit-transform: translateX(0) !important;
                 transform: translateX(0) !important;
+        
     }
 
     .responsive-nav {
@@ -1035,4 +1038,5 @@ section.contact-me  ul {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+    
 }
